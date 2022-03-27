@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>RECIPE-BOOK</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <section class="recipe-book">
+      <header class="header-container">
+        <p class="logo">RECIPE-BOOK</p>
+        <nav>
+          <ul class="nav-links">
+            <li><a href="#">Recipies</a></li>
+            <li><a href="#">Gallery</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#" class="run-tic-tac-toe">Tic-tac-toe game</a></li>
+          </ul>
+        </nav>
+        <a class="cta" href="#"><button>Contact</button></a>
+      </header>
+      <div class="main-container">
+        <header class="main-container-header">
+          <div class="main-container-header-left">
+            <p class="paragraph">Your everyday cooking inspiration.</p>
+            <a class="get-started" href="#"><button>Get Started</button></a>
+          </div>
+          <div class="main-container-header-right">
+            <img src="chef.jpg" alt="Chef" class="image" />
+          </div>
+        </header>
+        <p class="main-paragraph">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+          culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+      </div>
+    </section>
+    <section class="game-tic-tac-toe">
+      <h1 class="game-title">Tic-tac-toe</h1>
+      <div class="game-container">
+        <div data-cell-index="0" class="cell"></div>
+        <div data-cell-index="1" class="cell"></div>
+        <div data-cell-index="2" class="cell"></div>
+        <div data-cell-index="3" class="cell"></div>
+        <div data-cell-index="4" class="cell"></div>
+        <div data-cell-index="5" class="cell"></div>
+        <div data-cell-index="6" class="cell"></div>
+        <div data-cell-index="7" class="cell"></div>
+        <div data-cell-index="8" class="cell"></div>
+      </div>
+      <h2 class="game-status"></h2>
+      <div class="game-buttons">
+        <button class="game-restart-button">Restart</button>
+        <button class="game-back-button">Back</button>
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
